@@ -49,7 +49,7 @@ export const Location = () => {
             <br />
             - 지선(초록): 7013A, 7013B, 7016, 7611, 7613
             <br />
-            - <mark class=3D"label-black text-white">급행(빨강)</mark>: 8601, 2500, 8600
+            - 급행(빨강): 8601, 2500, 8600
             <br />
             - 공항(검정): 6015, 6021, 6702
           </div>
