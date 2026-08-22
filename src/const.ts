@@ -102,8 +102,8 @@ export const BRIDE_INFO = [
 export const GROOM_FULLNAME = "최동국"
 export const GROOM_FIRSTNAME = "동국"
 export const GROOM_TITLE = "아들"
-export const GROOM_FATHER = "신랑아버지"
-export const GROOM_MOTHER = "신랑어머니"
+export const GROOM_FATHER = "최성학"
+export const GROOM_MOTHER = "김은숙"
 
 /**
  * 신랑측 연락처 및 계좌 정보
@@ -112,8 +112,8 @@ export const GROOM_INFO = [
   {
     relation: "신랑",
     name: GROOM_FULLNAME,
-    phone: "010-0000-0000",
-    account: "하나은행 00000000000000",
+    phone: "010-2880-4594",
+    account: "국민은행 528702-04-017256",
   },
   {
     relation: "신랑 아버지",
