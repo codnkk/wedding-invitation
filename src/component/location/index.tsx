@@ -52,7 +52,7 @@ export const Location = () => {
             - 급행(빨강): 8601, 2500, 8600
             <br />
             - 공항(검정): 6015, 6021, 6702
-            <mark class="label-black text-white">공항버스</mark> 6015, 6021, 6702
+            <mark class="background-black text-white">공항버스</mark> 6015, 6021, 6702
           </div>
         </div>
 
