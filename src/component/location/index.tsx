@@ -53,10 +53,6 @@ export const Location = () => {
             <br />
             - 공항(검정): 6015, 6021, 6702
           </div>
-          <div className="content-black">
-            <br />
-            - 공항(검정): 6015, 6021, 6702
-          </div>
         </div>
 
         {/* 자가용 안내 */}
