@@ -71,8 +71,8 @@ export const KMAP_PLACE_ID = 13717401
 export const BRIDE_FULLNAME = "김효진"
 export const BRIDE_FIRSTNAME = "효진"
 export const BRIDE_TITLE = "딸"
-export const BRIDE_FATHER = "신부아버지"
-export const BRIDE_MOTHER = "신부어머니"
+export const BRIDE_FATHER = "김윤기"
+export const BRIDE_MOTHER = "이순애"
 
 /**
  * 신부측 연락처 및 계좌 정보
