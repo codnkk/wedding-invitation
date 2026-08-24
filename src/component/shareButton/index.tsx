@@ -12,6 +12,7 @@ import { LazyDiv } from "../lazyDiv"
 import { useKakao } from "../store"
 
 const baseUrl = import.meta.env.BASE_URL
+const baseUrl = "https://codnkk.github.io/wedding-invitation"
 
 /**
  * 카카오톡으로 초대장을 공유할 수 있는 버튼 컴포넌트입니다.
