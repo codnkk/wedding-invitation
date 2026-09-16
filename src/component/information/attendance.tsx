@@ -44,13 +44,15 @@ export const AttendanceInfo = () => {
     initialized.current = true
 
     // 서버 URL이 없거나 예식일이 지났으면 안내 모달을 띄우지 않음
-    if (!SERVER_URL || WEDDING_DATE.isBefore(now.current)) return
+//    if (!SERVER_URL || WEDDING_DATE.isBefore(now.current)) return
+    if (WEDDING_DATE.isBefore(now.current)) return
 
     attendanceInfoModalState[1](true)
   }, [attendanceInfoModalState])
 
   // 서버 연동 기능이 비활성화되어 있거나 이미 예식이 종료된 경우 섹션을 렌더링하지 않음
-  if (!SERVER_URL || WEDDING_DATE.isBefore(now.current)) return null
+//  if (!SERVER_URL || WEDDING_DATE.isBefore(now.current)) return null
+  if (WEDDING_DATE.isBefore(now.current)) return null
 
   return (
     <>
