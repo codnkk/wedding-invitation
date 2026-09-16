@@ -146,8 +146,21 @@ export const Information = () => {
   return (
     <LazyDiv className="card information">
       <Information1 />
-      <Information2 />
       <AttendanceInfo />
+      <Information2 />
+    </LazyDiv>
+  )
+}
+
+/**
+ * 정보 안내(참석의사)를 표시하는 컴포넌트입니다.
+ *
+ * @returns {JSX.Element} 정보 안내 섹션
+ */
+export const Information_ac = () => {
+  return (
+    <LazyDiv className="card information">
+      <Information2 />
     </LazyDiv>
   )
 }

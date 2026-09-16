@@ -6,6 +6,7 @@ import { Invitation } from "./component/invitation"
 import { Calendar } from "./component/calendar"
 import { Gallery } from "./component/gallery"
 import { Information } from "./component/information"
+import { Information_ac } from "./component/information"
 import { GuestBook } from "./component/guestbook"
 import { LazyDiv } from "./component/lazyDiv"
 import { ShareButton } from "./component/shareButton"
@@ -48,7 +49,8 @@ function App() {
           {/* 축의금 및 연락처 정보 섹션 */}
           <Information />
           {/* 방명록 섹션 (정적 모드가 아닐 때만 표시) */}
-          {!STATIC_ONLY && <GuestBook />}
+          {/*!STATIC_ONLY && <GuestBook />*/}
+          <Information_ac />
         </LazyDiv>
 
         {/* 카카오톡/링크 공유 버튼 */}
