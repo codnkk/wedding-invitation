@@ -147,13 +147,12 @@ export const Information = () => {
     <LazyDiv className="card information">
       <Information1 />
       <AttendanceInfo />
-      <Information2 />
     </LazyDiv>
   )
 }
 
 /**
- * 정보 안내(참석의사)를 표시하는 컴포넌트입니다.
+ * 정보 안내(축의금)를 표시하는 컴포넌트입니다.
  *
  * @returns {JSX.Element} 정보 안내 섹션
  */
