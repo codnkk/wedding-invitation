@@ -179,6 +179,7 @@ export const Information_ac = () => {
   return (
     <LazyDiv className="card information">
       <Information2 />
+      <ATMInformation />
     </LazyDiv>
   )
 }
