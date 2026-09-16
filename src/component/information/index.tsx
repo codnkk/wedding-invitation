@@ -124,6 +124,25 @@ export const Information2 = () => {
 }
 
 /**
+ * ATM 정보 안내 컴포넌트입니다.
+ */
+export const ATMInformation = () => {
+  return (
+    <>
+      <div className="info-card">
+        <div className="label">ATM 안내</div>
+        <div className="content-left">
+          예식장 5층 - ATM 2기
+          <br />
+          공덕역 지하 2층 - 국민은행, 신한은행
+        </div>
+      </div>
+    </>
+  )
+}
+
+
+/**
  * 정보 안내(식사, 축의금, 참석의사)를 통합하여 표시하는 컴포넌트입니다.
  *
  * @returns {JSX.Element} 정보 안내 섹션
