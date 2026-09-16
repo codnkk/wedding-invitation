@@ -66,8 +66,14 @@ export const AttendanceInfo = () => {
 
         <Button
           style={{ width: "100%" }}
-          onClick={() => {
+      /*    onClick={() => {
             attendanceFormModalState[1](true)
+          }}   */
+          onClick={() => {
+            window.open(
+                  `https://forms.gle/6u1R8tmVpiAhDXL97`,
+                  "_blank",
+                )
           }}
         >
           참석 의사 전달하기
@@ -106,9 +112,16 @@ export const AttendanceInfo = () => {
         <div className="footer">
           <Button
             buttonStyle="style2"
-            onClick={() => {
+      /*      onClick={() => {
               attendanceInfoModalState[1](false)
               attendanceFormModalState[1](true)
+            }}  */
+            onClick={() => {
+              attendanceInfoModalState[1](false)
+              window.open(
+                  `https://forms.gle/6u1R8tmVpiAhDXL97`,
+                  "_blank",
+                )
             }}
           >
             참석 의사 전달하기
