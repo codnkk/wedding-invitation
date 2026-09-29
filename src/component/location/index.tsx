@@ -70,9 +70,9 @@ export const Location = () => {
             <br />
             - 주차는 2시간 무료입니다.
             <br />
-            &nbsp; 주차요금 : 2시간 이후 10분당 1,000원
-            <br />
             &nbsp; (안내데스크에서 주차 등록 필요)
+            <br />
+            &nbsp; 주차요금 : 2시간 이후 10분당 1,000원
           </div>
           <div />
           <div className="content">
